@@ -1,6 +1,6 @@
 # Single-cell-RNA-Sequencing_SCLC_chemotherapy_Pipeline
 
-This pipeline was used for visualization of clinical information of enrolled small cell lung cancer (SCLC) patients, generation of gene expression matrices, scRNA-seq profiling of cellular heterogeneity in SCLC patients, transcriptional characters and alterations of NE (neuroendocrine) cells in SCLC patients following chemotherapy, as well as chemotherapy-induced transcriptional changes in endothelial cells, fibroblasts, B cells and T cells in SCLC patients based on the single-cell RNA sequencing data.
+This pipeline was used for visualization of clinical information of enrolled small cell lung cancer (SCLC) patients, generation of gene expression matrices, scRNA-seq profiling of cellular heterogeneity in SCLC patients, transcriptional characters and alterations of neuroendocrine (NE) cells in SCLC patients following chemotherapy, as well as chemotherapy-induced transcriptional changes in endothelial cells, fibroblasts, B cells and T cells in SCLC patients based on the single-cell RNA sequencing data.
 
 
 
@@ -8,7 +8,7 @@ This pipeline was described in the publication: XXX
 
 
 
-The raw single-cell RNA-seq data generated in this study is available in the National Genomics Data Center (NGDC) Genome Sequence Archive (GSA) database (https://bigd.big.ac.cn/gsa485 human/) under accession number HRA003150.
+The raw single-cell RNA-seq data generated in this study is available in the National Genomics Data Center (NGDC) Genome Sequence Archive (GSA) database (https://bigd.big.ac.cn/gsa-human/) under accession number HRA003150.
 
 
 
@@ -57,12 +57,18 @@ UMAP visualization of subclustered endothelial cells. Heatmap showing correlatio
 
 Part4_fibroblast_treated-vs-untreated.R
 
-UMAP plot of subclustered fibroblasts. Heatmap showing expression level of classic gene markers of fibroblast subtypes. The GSVA score for most significant pathways enriched in plasma cells from treated patients. Unsupervised clustering of GSVA scores of fibroblast subtypes in treated and treatment-naïve patients. GO and KEGG pathway enrichment analyses of genes in fibroblasts differentially expressed between treated and treatment-naïve patients. Ridgeline plot of collagen gene expression in fibroblasts.
+UMAP plot of subclustered fibroblasts. Heatmap showing expression level of classic gene markers of fibroblast subtypes. The GSVA score for most significant pathways enriched in fibroblast subtypes from treated patients. Unsupervised clustering of GSVA scores of fibroblast subtypes in treated and treatment-naïve patients. GO and KEGG pathway enrichment analyses of genes in fibroblasts differentially expressed between treated and treatment-naïve patients. Ridgeline plot of collagen gene expression in fibroblasts.
 
 
 Part5_B-cell_treated-vs-untreated.R
 
-Immune cell type composition of each patient. UMAP plot of subclustered B cells in patients. Heatmap showing expression of canonical markers of B cell subtypes. Expression heatmap of top 100 genes in plasma cells differentially expressed between treated and treatment-naïve patients. GO enrichment of genes in plasma cells differentially expressed between treated and treatment-naïve patients. Bar chart illustrating the GSVA score for most significant pathways enriched in treatment patients compared to treatment-naïve ones in plasma cells. Unsupervised clustering of GSVA scores for plasma cells from treated and treatment-naïve patients. Potential developmental trajectory of CD8+ T cells inferred by Monocle. 
+Immune cell type composition of each patient. UMAP plot of subclustered B cells in patients. Heatmap showing expression of canonical markers of B cell subtypes. Expression heatmap of top 100 genes in plasma cells differentially expressed between treated and treatment-naïve patients. GO enrichment of genes in plasma cells differentially expressed between treated and treatment-naïve patients. Bar chart illustrating the GSVA score for most significant pathways enriched in treatment patients compared to treatment-naïve ones in plasma cells. Unsupervised clustering of GSVA scores for plasma cells from treated and treatment-naïve patients. 
+
+
+
+Part6_T-cell_treated-vs-untreated.R
+
+UMAP visualization of subclustered T cells colored by cluster, subtype and patient.Heatmap showing the expression of selected markers of T cell subtypes. Stacked bar plot showing the fraction of T cell subtypes in each patient. Bar chart illustrating the GSVA score for most significant pathways enriched in CD8+ T cells from treated patients. Unsupervised clustering of GSVA scores of selected pathways enriched in CD8+ T cells from treated and treatment-naïve patients.Potential developmental trajectory of CD8+ T cells inferred by Monocle.
 
 
 

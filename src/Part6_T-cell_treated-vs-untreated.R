@@ -211,7 +211,7 @@ dim(al.integrated@meta.data)
 T_colors <- c('#efafad','#c35691','#F4A460','#33A1C9','#2c9678','#b78d12')
 names(T_colors) <- c('CD4_CD8_','CD8_Effector','CD8_Exhausted','CD4_Naive','CD4_Exhausted','CD4-CD8-')
 
-#######################marker -T cells subtypes 热图
+#######################marker -T cells subtypes 
 
 #Idents(al.integrated) <- 'subtypes'
 

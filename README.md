@@ -68,7 +68,7 @@ Immune cell type composition of each patient. UMAP plot of subclustered B cells 
 
 Part6_T-cell_treated-vs-untreated.R
 
-UMAP visualization of subclustered T cells colored by cluster, subtype and patient.Heatmap showing the expression of selected markers of T cell subtypes. Stacked bar plot showing the fraction of T cell subtypes in each patient. Bar chart illustrating the GSVA score for most significant pathways enriched in CD8+ T cells from treated patients. Unsupervised clustering of GSVA scores of selected pathways enriched in CD8+ T cells from treated and treatment-naïve patients.Potential developmental trajectory of CD8+ T cells inferred by Monocle.
+UMAP visualization of subclustered T cells colored by cluster, subtype and patient.Heatmap showing the expression of selected markers of T cell subtypes. Stacked bar plot showing the fraction of T cell subtypes in each patient. Bar chart illustrating the GSVA score for most significant pathways enriched in CD8+ T cells from treated patients. Unsupervised clustering of GSVA scores of selected pathways enriched in CD8+ T cells from treated and treatment-naïve patients. Potential developmental trajectory of CD8+ T cells inferred by Monocle.
 
 
 
